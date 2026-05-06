@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState,useEffect  } from "react";
 import { useLang } from "../context/LangContext";
 import SectionHeader from "../components/SectionHeader";
 import { useReveal } from "../components/useReveal";
 import { Flag, Lightbulb, Users } from "lucide-react";
+
+
+  
 
 function Card({ icon: Icon, title, text, delay }) {
   const ref = useReveal();
@@ -31,6 +34,18 @@ export default function About() {
 
   const [readMore, setReadMore] = useState(false);
 
+ const images = ["/images/profile1.jpg", "/images/profile2.png"];
+
+ const [currentImage, setCurrentImage] = useState(0);
+
+ useEffect(() => {
+   const interval = setInterval(() => {
+     setCurrentImage((prev) => (prev + 1) % images.length);
+   }, 3000);
+
+   return () => clearInterval(interval);
+ }, []);
+
   return (
     <section id="about" className="py-10 md:py-14 pattern-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,13 +55,21 @@ export default function About() {
           {/* Image column */}
           <div ref={imgRef} className="reveal order-2 lg:order-1">
             <div className="relative w-full max-w-md mx-auto lg:mx-0">
-              <div className="w-full h-[500px] rounded-3xl overflow-hidden border border-orange-900/30 shadow-2xl shadow-orange-950/50">
-                <img
-                  src="/images/profile.jpg"
-                  alt="Yogesh Phalke"
-                  className="w-full h-full object-cover object-center"
-                  loading="lazy"
-                />
+              <div className="relative w-full h-[500px] rounded-3xl overflow-hidden border border-orange-900/30 shadow-2xl shadow-orange-950/50">
+                {images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt="Yogesh Phalke"
+                    loading="lazy"
+                    className={`absolute top-0 left-0 w-full h-full object-cover object-center transition-all duration-[2000ms] ease-in-out ${
+                      index === currentImage
+                        ? "opacity-100 scale-100"
+                        : "opacity-0 scale-105"
+                    }`}
+                  />
+                ))}
+
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f0500]/70 via-transparent to-transparent" />
               </div>
 
@@ -113,7 +136,7 @@ export default function About() {
                   year: "2025",
                   label: {
                     en: "Sub-District Organizer, Shiv Sena (Wai)",
-                    mr: "उपतालुका संघटक, शिवसेना (वाई)",
+                    mr: "उपजिल्हा संघटक, शिवसेना (वाई)",
                   },
                 },
                 {
