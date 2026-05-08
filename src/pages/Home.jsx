@@ -11,11 +11,22 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
-      <Idol />
-      <ActivitiesPreview />
-      <MediaPreview />
-      <Leadership />
+
+      <div className="section-blend">
+        <About />
+      </div>
+      <div className="section-blend">
+        <Idol />
+      </div>
+      <div className="section-blend">
+        <MediaPreview />
+      </div>
+      <div className="section-blend">
+        <ActivitiesPreview />
+      </div>
+      <div className="section-blend">
+        <Leadership />
+      </div>
     </>
   );
 }

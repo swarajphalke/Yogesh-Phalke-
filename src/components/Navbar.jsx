@@ -16,13 +16,14 @@ export default function Navbar() {
   }, []);
 
   const activities = [
-    { name: "work", label: t.nav.work, path: "/social-work" },
+    // { name: "work", label: t.nav.work, path: "/social-work" },
     { name: "banners", label: t.nav.banners, path: "/campaigns" },
   ];
 
   const media = [
     { name: "videos", label: t.nav.videos, path: "/videos" },
     { name: "press", label: t.nav.press, path: "/press" },
+    { name: "gallery", label: t.nav.gallery, path: "/gallery" },
   ];
 
   return (
@@ -45,10 +46,10 @@ export default function Navbar() {
                 className="w-12 h-12 object-cover rounded-full shadow-lg"
               />
               <div className="sm:block">
-                <div className="text-white text-sm font-semibold font-display">
+                <div className="text-white text-sm font-semibold tracking-wide font-display">
                   Yogesh Phalke
                 </div>
-                <div className="text-orange-400 text-xs">
+                <div className="text-orange-400 text-xs font-deva">
                   जिल्हाध्यक्ष, सातारा
                 </div>
               </div>
@@ -62,31 +63,6 @@ export default function Navbar() {
               >
                 {t.nav.home}
               </Link>
-
-              {/* Activities */}
-              <div className="relative">
-                <button
-                  onClick={() => setDropdown(dropdown === "act" ? null : "act")}
-                  className="nav-link text-white/80 hover:text-orange-400"
-                >
-                  {t.nav.activities} ▼
-                </button>
-
-                {dropdown === "act" && (
-                  <div className="absolute top-10 left-0 w-48 bg-[#1a0a00] border border-orange-500/20 rounded-lg shadow-lg">
-                    {activities.map((item) => (
-                      <Link
-                        key={item.name}
-                        to={item.path}
-                        onClick={() => setDropdown(null)}
-                        className="block px-4 py-2 text-white/80 hover:text-orange-400 hover:bg-orange-500/10"
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
 
               {/* Media */}
               <div className="relative">
@@ -102,6 +78,31 @@ export default function Navbar() {
                 {dropdown === "media" && (
                   <div className="absolute top-10 left-0 w-48 bg-[#1a0a00] border border-orange-500/20 rounded-lg shadow-lg">
                     {media.map((item) => (
+                      <Link
+                        key={item.name}
+                        to={item.path}
+                        onClick={() => setDropdown(null)}
+                        className="block px-4 py-2 text-white/80 hover:text-orange-400 hover:bg-orange-500/10"
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Activities */}
+              <div className="relative">
+                <button
+                  onClick={() => setDropdown(dropdown === "act" ? null : "act")}
+                  className="nav-link text-white/80 hover:text-orange-400"
+                >
+                  {t.nav.activities} ▼
+                </button>
+
+                {dropdown === "act" && (
+                  <div className="absolute top-10 left-0 w-48 bg-[#1a0a00] border border-orange-500/20 rounded-lg shadow-lg">
+                    {activities.map((item) => (
                       <Link
                         key={item.name}
                         to={item.path}
@@ -149,32 +150,6 @@ export default function Navbar() {
             <span className="text-[10px]">{t.nav.home}</span>
           </Link>
 
-          {/* Activities */}
-          <div className="relative">
-            <button
-              onClick={() => setDropdown(dropdown === "act" ? null : "act")}
-              className="mobile-tab"
-            >
-              <Briefcase size={20} />
-              <span className="text-[10px]">{t.nav.activities}</span>
-            </button>
-
-            {dropdown === "act" && (
-              <div className="mobile-dropdown">
-                {activities.map((item) => (
-                  <Link
-                    key={item.name}
-                    to={item.path}
-                    onClick={() => setDropdown(null)}
-                    className="mobile-dropdown-item"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-
           {/* Media */}
           <div className="relative">
             <button
@@ -201,6 +176,32 @@ export default function Navbar() {
             )}
           </div>
 
+          {/* Activities */}
+          <div className="relative">
+            <button
+              onClick={() => setDropdown(dropdown === "act" ? null : "act")}
+              className="mobile-tab"
+            >
+              <Briefcase size={20} />
+              <span className="text-[10px]">{t.nav.activities}</span>
+            </button>
+
+            {dropdown === "act" && (
+              <div className="mobile-dropdown">
+                {activities.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.path}
+                    onClick={() => setDropdown(null)}
+                    className="mobile-dropdown-item"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           <Link to="/contact" className="mobile-tab">
             <User size={20} />
             <span className="text-[10px]">{t.nav.contact}</span>
@@ -209,7 +210,7 @@ export default function Navbar() {
       </div>
 
       {/* Styles */}
-      <style jsx>{`
+      <style>{`
         .mobile-tab {
           display: flex;
           flex-direction: column;

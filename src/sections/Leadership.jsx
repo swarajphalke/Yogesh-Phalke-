@@ -50,7 +50,7 @@ export default function Leadership() {
   };
 
   return (
-    <section id="leadership" className="py-16 md:py-18 bg-[#0a0100]">
+    <section id="leadership" className="py-16 md:py-18 pattern-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header + Dropdown */}
         <div className="relative mb-8">

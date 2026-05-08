@@ -68,7 +68,7 @@ export default function Gallery() {
             <X size={20} />
           </button>
           <button onClick={(e) => { e.stopPropagation(); prev() }}
-            className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-orange-500/50 flex items-center justify-center text-white transition-colors">
+            className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/70 hover:bg-orange-500/50 flex items-center justify-center text-black transition-colors">
             <ChevronLeft size={20} />
           </button>
           <img
@@ -78,7 +78,7 @@ export default function Gallery() {
             onClick={e => e.stopPropagation()}
           />
           <button onClick={(e) => { e.stopPropagation(); next() }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-orange-500/50 flex items-center justify-center text-white transition-colors">
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/70 hover:bg-orange-500/50 flex items-center justify-center text-black transition-colors">
             <ChevronRight size={20} />
           </button>
           <div className="absolute bottom-4 text-white/40 text-sm">

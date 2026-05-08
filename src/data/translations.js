@@ -4,13 +4,17 @@ export const translations = {
       home: "Home",
       work: "Social Work",
       banners: "Campaigns",
-      videos: "Videos",
+      videos: "Reels",
       press: "Press",
       gallery: "Gallery",
       contact: "Contact",
       activities: "Activities",
       media: "Media",
       about: "About",
+      leadership: "Leadership",
+    },
+    btn: {
+      seeMore: "See More ➜",
     },
     hero: {
       name: "Yogesh Sitabai Anandrao Phalke",
@@ -38,12 +42,24 @@ export const translations = {
       assocText:
         "Yuva Sena Assembly President (Wai–Khandala–Mahabaleshwar), Shiv Sena (2023). Strengthened the organization and youth connect.",
     },
+    idol: {
+      heading: "Idols",
+      sub: "Leaders who inspire our ideology and work",
+    },
+    activitiesPreview: {
+      heading: "Social Work & Achievements",
+      sub: "Social work initiatives and various campaigns conducted for the people",
+    },
+    mediaPreview: {
+      heading: "Media",
+      sub: "Press coverage and video messages reaching the people",
+    },
     work: {
       heading: "Social Work & Achievements",
       sub: "Building Satara, one initiative at a time",
     },
     videos: {
-      heading: "Video Gallery",
+      heading: "Reels Gallery",
       sub: "Speeches, programs and public events",
     },
     press: {
@@ -53,10 +69,6 @@ export const translations = {
     banners: {
       heading: "Campaigns & Banners",
       sub: "Political outreach and party programs",
-    },
-    idol: {
-      heading: "Idols",
-      sub: "Leaders who inspire our ideology and work",
     },
     leadership: {
       heading: "Leadership",
@@ -93,7 +105,11 @@ export const translations = {
       gallery: "गॅलरी",
       contact: "संपर्क",
       activities: "क्रियाकलाप",
-      media: "माध्यम",
+      media: "माध्यमे",
+      leadership: "नेतृत्व",
+    },
+    btn: {
+      seeMore: "अधिक पहा ➜",
     },
     hero: {
       name: "योगेश सीताबाई आनंदराव फाळके",
@@ -106,7 +122,7 @@ export const translations = {
       heading: "नेत्याविषयी",
       sub: "सातारा जिल्ह्यातील कामगार व सामान्य नागरिकांचा आवाज",
       intro:
-        "योगेश सीताबाई आनंदराव फाळके हे सातारा जिल्ह्यातील तळागाळातील राजकीय नेते असून त्यांनी कामगार, शेतकरी आणि सामान्य नागरिकांसाठी सातत्याने काम केले आहे. सध्या ते शिव कामगार सेना (सातारा) जिल्हाध्यक्ष, तसेच शिवसेना (वाई) उपतालुका संघटक म्हणून कार्यरत असून रोजगार हमी समितीचे सदस्य म्हणूनही सार्वजनिक विकासात योगदान देत आहेत.",
+        "योगेश सीताबाई आनंदराव फाळके हे सातारा जिल्ह्यातील तळागाळातील राजकीय नेते असून त्यांनी कामगार, शेतकरी आणि सामान्य नागरिकांसाठी सातत्याने काम केले आहे. सध्या ते शिव कामगार सेना (सातारा) जिल्हाध्यक्ष, तसेच शिवसेना (वाई) उपजिल्हा संघटक म्हणून कार्यरत असून रोजगार हमी समितीचे सदस्य म्हणूनही सार्वजनिक विकासात योगदान देत आहेत.",
 
       p2: "२०१० मध्ये राजकीय प्रवासाची सुरुवात करून त्यांनी तळागाळातून काम करत जनसंपर्क मजबूत केला. २०२३ मध्ये शिवसेनेत प्रवेश केल्यानंतर वाई–खंडाळा–महाबळेश्वर येथे युवासेना विधानसभा अध्यक्ष म्हणून जबाबदारी स्वीकारली. कामगार हक्क चळवळी, भरती मोहिमा, एमआयडीसीतील कामगार प्रश्न, पायाभूत सुविधा आणि सार्वजनिक सुरक्षेच्या उपक्रमांमध्ये त्यांच्या नेतृत्वाचे प्रतिबिंब दिसून येते. कामगार, शेतकरी आणि युवकांशी मजबूत नाते ठेवत ते बाळासाहेब ठाकरे यांच्या विचारसरणीने प्रेरित होऊन जनतेला प्राधान्य देत कार्य करत आहेत.",
       journey: "राजकीय प्रवास",
@@ -118,6 +134,17 @@ export const translations = {
         "हिंदुत्व व सामाजिक न्यायावर विश्वास. कामगार-शेतकरी व जनकल्याणावर लक्ष. जनतेला प्राधान्य देणारी भूमिका.",
       assocText:
         "युवासेना विधानसभा अध्यक्ष (वाई–खंडाळा–महाबळेश्वर), शिवसेना (२०२३). संघटना व युवक संपर्क मजबूत केला.",
+    },
+    idol: {
+      heading: "प्रेरणास्थाने",
+      sub: "आपल्या विचारांना प्रेरणा देणारे महान नेते",
+    },
+    activitiesPreview: {
+      heading: "कार्य आणि अभियान",
+      sub: "सामाजिक कार्य आणि जनतेसाठी राबविण्यात आलेल्या विविध मोहिमा",
+    },
+    mediaPreview: {
+      sub: "प्रेस कव्हरेज आणि जनतेपर्यंत पोहोचलेले व्हिडिओ संदेश",
     },
     work: {
       heading: "समाजकार्य व उपलब्धी",
@@ -132,10 +159,7 @@ export const translations = {
       heading: "मोहीम व फलक",
       sub: "राजकीय जनसंपर्क आणि पक्ष कार्यक्रम",
     },
-    idol: {
-      heading: "प्रेरणास्थाने",
-      sub: "आपल्या विचारांना प्रेरणा देणारे महान नेते",
-    },
+
     leadership: {
       heading: "नेतृत्व",
       sub: "आमचे आदरणीय पक्षनेते आणि वरिष्ठ मंत्री",

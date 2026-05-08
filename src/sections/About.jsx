@@ -47,7 +47,7 @@ export default function About() {
  }, []);
 
   return (
-    <section id="about" className="py-10 md:py-14 pattern-bg">
+    <section id="about" className="py-20 md:py-28 pattern-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader heading={a.heading} sub={a.sub} />
 

@@ -32,17 +32,13 @@ function WorkCard({ item, lang }) {
 export default function SocialWork() {
   const { t, lang } = useLang()
   return (
-    <section id="work" className="py-20 md:py-28 bg-[#0a0100]">
+    <section id="work" className="py-20 md:py-28 pattern-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader heading={t.work.heading} sub={t.work.sub} />
-        {/* <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {works.map(item => <WorkCard key={item.id} item={item} lang={lang} />)}
-        </div> */}
-
-        <div className="flex items-center justify-center py-20">
-          <h2 className="text-2xl md:text-4xl font-bold text-white/80 tracking-wide">
-            🚧 Coming Soon
-          </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {works.map((item) => (
+            <WorkCard key={item.id} item={item} lang={lang} />
+          ))}
         </div>
       </div>
     </section>

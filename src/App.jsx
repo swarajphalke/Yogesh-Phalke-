@@ -15,7 +15,6 @@ export default function App() {
   return (
     <LangProvider>
       <BrowserRouter>
-        
         <ScrollToTop />
         <Navbar />
         <main className="flex-grow">
@@ -30,6 +29,7 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
+ 
         <Footer />
       </BrowserRouter>
     </LangProvider>

@@ -73,3 +73,31 @@ body {
 .animate-blink {
   animation: blink 1s infinite;
 }
+
+/* Smooth blend between sections */
+.section-blend {
+  position: relative;
+}
+
+.section-blend::before,
+.section-blend::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Fade-in from top (blends with section above) */
+.section-blend::before {
+  top: 0;
+  background: linear-gradient(to bottom, #0f0500, transparent);
+}
+
+/* Fade-out to bottom (blends with section below) */
+.section-blend::after {
+  bottom: 0;
+  background: linear-gradient(to top, #0f0500, transparent);
+}

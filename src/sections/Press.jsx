@@ -62,7 +62,7 @@ export default function Press() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section className="py-20 bg-[#0a0100]">
+    <section className="py-20 md:py-28 pattern-bg">
       <div className="max-w-7xl mx-auto px-4">
         <SectionHeader heading={t.press.heading} sub={t.press.sub} />
 

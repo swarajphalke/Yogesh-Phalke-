@@ -36,13 +36,13 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-28 bg-[#0a0100]">
+    <section id="contact" className="py-20 md:py-28 pattern-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader heading={c.heading} sub={c.sub} />
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div ref={infoRef} className="reveal space-y-8">
             <div>
-              <h3 className="font-display text-xl font-bold text-white mb-6">
+              <h3 className="font-display text-xl font-bold inline-block text-white mb-6">
                 {lang === "mr" ? "संपर्क माहिती" : "Contact Information"}
               </h3>
               <div className="space-y-5">
@@ -198,6 +198,6 @@ export default function Contact() {
       </div>
       <br />
       <br />
-     </section>
+    </section>
   );
 }
