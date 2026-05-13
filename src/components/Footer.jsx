@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const socials = [
-    { Icon: FacebookIcon, link: "https://www.facebook.com/share/18nhQ6YvXc/" },
+    { Icon: FacebookIcon, link: "https://www.facebook.com/yoogeshphalke.59/" },
     {
       Icon: InstagramIcon,
-      link: "https://www.instagram.com/yoogeshanandraophalke_?igsh=ZXl1c3ljbm9ieXQ1",
+      link: "https://www.instagram.com/yoogeshphalke_/",
     },
     { Icon: WhatsappIcon, link: "https://wa.me/919172539959" },
   ];

@@ -34,7 +34,12 @@ export default function About() {
 
   const [readMore, setReadMore] = useState(false);
 
- const images = ["/images/profile1.jpg", "/images/profile2.png"];
+ const images = [
+   "/images/profile1.jpg",
+   "/images/profile2.png",
+   "/images/profile3.jpeg",
+   "/images/profile4.jpeg",
+ ];
 
  const [currentImage, setCurrentImage] = useState(0);
 

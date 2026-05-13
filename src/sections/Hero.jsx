@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../context/LangContext";
 import { ChevronDown } from "lucide-react";
+import { doc, getDoc, setDoc, updateDoc, increment } from "firebase/firestore";
 
-function getVisitorCount() {
-  const key = "ypf_visits";
-  const count = parseInt(localStorage.getItem(key) || "0") + 1;
-  localStorage.setItem(key, count);
-  return count;
-}
+import { db } from "../firebase";
+ 
 
 export default function Hero() {
   const { t, lang } = useLang();
@@ -15,11 +12,34 @@ export default function Hero() {
   const [count, setCount] = useState(0);
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    setCount(getVisitorCount());
-    const timer = setTimeout(() => setVisible(true), 100);
-    return () => clearTimeout(timer);
-  }, []);
+useEffect(() => {
+  async function updateVisitorCount() {
+    try {
+      const ref = doc(db, "stats", "visitors");
+
+      const snap = await getDoc(ref);
+
+      if (!snap.exists()) {
+        await setDoc(ref, { count: 1 });
+        setCount(1);
+      } else {
+        await updateDoc(ref, {
+          count: increment(1),
+        });
+
+        setCount(snap.data().count + 1);
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  updateVisitorCount();
+
+  const timer = setTimeout(() => setVisible(true), 100);
+
+  return () => clearTimeout(timer);
+}, []);
 
   return (
     <section
@@ -81,14 +101,14 @@ export default function Hero() {
             <div className="w-px h-10 bg-orange-800/50 hidden sm:block" />
 
             <Stat
-              num="50+"
+              num="35+"
               label={{ en: "Villages Served", mr: "गावे सेवित" }}
               lang={lang}
             />
             <div className="w-px h-10 bg-orange-800/50 hidden sm:block" />
 
             <Stat
-              num="10K+"
+              num="7K+"
               label={{ en: "Workers Mobilized", mr: "कार्यकर्ते" }}
               lang={lang}
             />
