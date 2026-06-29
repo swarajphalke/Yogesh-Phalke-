@@ -1,45 +1,8 @@
-import { useEffect, useState } from "react";
 import { useLang } from "../context/LangContext";
-import { ChevronDown } from "lucide-react";
-import { doc, getDoc, setDoc, updateDoc, increment } from "firebase/firestore";
-
-import { db } from "../firebase";
- 
 
 export default function Hero() {
   const { t, lang } = useLang();
   const h = t.hero;
-  const [count, setCount] = useState(0);
-  const [visible, setVisible] = useState(false);
-
-useEffect(() => {
-  async function updateVisitorCount() {
-    try {
-      const ref = doc(db, "stats", "visitors");
-
-      const snap = await getDoc(ref);
-
-      if (!snap.exists()) {
-        await setDoc(ref, { count: 1 });
-        setCount(1);
-      } else {
-        await updateDoc(ref, {
-          count: increment(1),
-        });
-
-        setCount(snap.data().count + 1);
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  }
-
-  updateVisitorCount();
-
-  const timer = setTimeout(() => setVisible(true), 100);
-
-  return () => clearTimeout(timer);
-}, []);
 
   return (
     <section
@@ -59,7 +22,7 @@ useEffect(() => {
 
       {/* Content */}
       <div
-        className={`relative z-10 text-center px-4 max-w-5xl mx-auto transition-opacity duration-700 ${visible ? "opacity-100" : "opacity-0"} will-change-transform`}
+        className={`relative z-10 text-center px-4 max-w-5xl mx-auto transition-opacity duration-700 $  will-change-transform`}
       >
         <div className="flex flex-col items-center space-y-6">
           {/* Party Badge */}
@@ -112,22 +75,13 @@ useEffect(() => {
               label={{ en: "Workers Mobilized", mr: "कार्यकर्ते" }}
               lang={lang}
             />
-            <div className="w-px h-10 bg-orange-800/50 hidden sm:block" />
-
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-orange-400 font-display">
-                {count.toLocaleString()}
-              </div>
-              <div className="text-white/40 text-xs mt-1">{h.visitCount}</div>
-            </div>
+ 
+            
           </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/20 animate-bounce">
-        <ChevronDown size={24} />
-      </div>
+       
     </section>
   );
 }
