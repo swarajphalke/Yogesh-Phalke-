@@ -11,6 +11,8 @@ import CampaignsPage from "./pages/CampaignsPage";
 import LeadershipPage from "./pages/LeadershipPage";
 import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
+import NotFound from "./pages/NotFound";
+
 export default function App() {
   return (
     <LangProvider>
@@ -27,9 +29,10 @@ export default function App() {
             <Route path="/leadership" element={<LeadershipPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
- 
+
         <Footer />
       </BrowserRouter>
     </LangProvider>

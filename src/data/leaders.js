@@ -8,7 +8,8 @@ export const leaders = {
         en: "Deputy Chief Minister, Maharashtra",
         mr: "उपमुख्यमंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/2.Eknath_Shinde.jpg",
+      image:
+        "/images/leaders/minister/eknath-shinde-deputy-chief-minister-maharashtra.jpg",
     },
 
     {
@@ -19,7 +20,8 @@ export const leaders = {
         en: "Minister for Industries and Marathi Language, Maharashtra",
         mr: "उद्योग व मराठी भाषा मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/6.Uday_Samant.png",
+      image:
+        "/images/leaders/minister/uday-samant-industries-marathi-language-minister.png",
     },
 
     {
@@ -30,7 +32,8 @@ export const leaders = {
         en: "Minister for Tourism and Mining, Maharashtra",
         mr: "पर्यटन व खाण मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/3.Shambhuraje_Desai.jpg",
+      image:
+        "/images/leaders/minister/shambhuraje-desai-tourism-minister-maharashtra.jpg",
     },
 
     {
@@ -41,7 +44,8 @@ export const leaders = {
         en: "Minister for School Education, Maharashtra",
         mr: "शालेय शिक्षण मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/4.Dadaji_Bhuse.jpg",
+      image:
+        "/images/leaders/minister/dadaji-bhuse-school-education-minister-maharashtra.jpg",
     },
 
     {
@@ -52,7 +56,8 @@ export const leaders = {
         en: "Minister for Soil and Water Conservation, Maharashtra",
         mr: "मृदा व जलसंधारण मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/5.Sanjay_Rathod.jpg",
+      image:
+        "/images/leaders/minister/sanjay-rathod-soil-water-conservation-minister.jpg",
     },
 
     {
@@ -63,7 +68,8 @@ export const leaders = {
         en: "Minister for Water Supply and Sanitation, Maharashtra",
         mr: "पाणी पुरवठा व स्वच्छता मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/7.Gulabrao_Patil.jpg",
+      image:
+        "/images/leaders/minister/gulabrao-patil-water-supply-sanitation-minister.jpg",
     },
 
     {
@@ -74,7 +80,8 @@ export const leaders = {
         en: "Minister for Social Justice, Maharashtra",
         mr: "सामाजिक न्याय मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/8.Sanjay_Shirsat.jpg",
+      image:
+        "/images/leaders/minister/sanjay-shirsat-social-justice-minister.jpg",
     },
 
     {
@@ -85,7 +92,8 @@ export const leaders = {
         en: "Minister for Transport, Maharashtra",
         mr: "परिवहन मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/9.Pratap_Sarnaik.jpg",
+      image:
+        "/images/leaders/minister/pratap-sarnaik-transport-minister-maharashtra.jpg",
     },
 
     {
@@ -96,7 +104,8 @@ export const leaders = {
         en: "Minister for Public Health and Family Welfare, Maharashtra",
         mr: "सार्वजनिक आरोग्य व कुटुंब कल्याण मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/10.Prakash_Abitkar.jpg",
+      image:
+        "/images/leaders/minister/prakash-abitkar-public-health-minister.jpg",
     },
 
     {
@@ -107,7 +116,8 @@ export const leaders = {
         en: "Minister for Employment Guarantee, Horticulture and Saline Land Development, Maharashtra",
         mr: "रोजगार हमी, फलोत्पादन व खारभूमी विकास मंत्री, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/11.Bharat_Gogawale.png",
+      image:
+        "/images/leaders/minister/bharat-gogawale-employment-guarantee-minister.png",
     },
 
     {
@@ -118,7 +128,8 @@ export const leaders = {
         en: "Minister of State for Health and Family Welfare, India",
         mr: "राज्यमंत्री - आरोग्य व कुटुंब कल्याण, भारत",
       },
-      image: "/images/leaders/minister/1.Prataprao_Jadhav.jpeg",
+      image:
+        "/images/leaders/minister/prataprao-jadhav-minister-of-state-health-india.jpeg",
     },
 
     {
@@ -129,7 +140,8 @@ export const leaders = {
         en: "Minister of State for Urban Home, Revenue, Rural Development and Panchayati Raj, Food and Civil Supplies & Consumer Protection, and Food and Drug Administration, Maharashtra",
         mr: "राज्यमंत्री - गृह (शहरे), महसूल, ग्रामीण विकास व पंचायत राज, अन्न नागरी पुरवठा व ग्राहक संरक्षण, अन्न व औषध प्रशासन, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/12.Yogesh_Kadam.jpg",
+      image:
+        "/images/leaders/minister/yogesh-kadam-minister-of-state-maharashtra.jpg",
     },
 
     {
@@ -140,7 +152,8 @@ export const leaders = {
         en: "Minister of State for Finance, Planning, Agriculture, Relief and Rehabilitation, Law and Judiciary, and Labour, Maharashtra",
         mr: "राज्यमंत्री - वित्त, नियोजन, कृषी, मदत व पुनर्वसन, विधी व न्याय, कामगार, महाराष्ट्र",
       },
-      image: "/images/leaders/minister/13.Ashish_Jaiswal.png",
+      image:
+        "/images/leaders/minister/ashish-jaiswal-minister-of-state-finance.png",
     },
   ],
 
@@ -153,7 +166,7 @@ export const leaders = {
         en: "Lok Sabha MP (Maval)",
         mr: "लोकसभा खासदार (मावळ)",
       },
-      image: "/images/leaders/mp/1.Shriang_Barne.jpg",
+      image: "/images/leaders/mp/shrirang-barne-lok-sabha-mp-maval.jpg",
     },
     {
       id: 2,
@@ -163,7 +176,7 @@ export const leaders = {
         en: "Lok Sabha MP (Kalyan)",
         mr: "लोकसभा खासदार (कल्याण)",
       },
-      image: "/images/leaders/mp/2.Shrikant_Shinde.png",
+      image: "/images/leaders/mp/shrikant-shinde-lok-sabha-mp-kalyan.png",
     },
     {
       id: 3,
@@ -173,7 +186,8 @@ export const leaders = {
         en: "Lok Sabha MP (Hatkanangle)",
         mr: "लोकसभा खासदार (हातकणंगले)",
       },
-      image: "/images/leaders/mp/3.Dhairyashil_Mane.jpg",
+      image:
+        "/images/leaders/mp/dhairyasheel-mane-lok-sabha-mp-hatkanangale.jpg",
     },
     {
       id: 4,
@@ -183,7 +197,7 @@ export const leaders = {
         en: "Lok Sabha MP (Buldhana)",
         mr: "लोकसभा खासदार (बुलढाणा)",
       },
-      image: "/images/leaders/mp/4.Prataprao_Jadhav.jpg",
+      image: "/images/leaders/mp/prataprao-jadhav-lok-sabha-mp-buldhana.jpg",
     },
     {
       id: 5,
@@ -193,7 +207,7 @@ export const leaders = {
         en: "Lok Sabha MP (Aurangabad)",
         mr: "लोकसभा खासदार (औरंगाबाद)",
       },
-      image: "/images/leaders/mp/5.Asaram_Bhumare.jpg",
+      image: "/images/leaders/mp/asaram-bhumare-lok-sabha-mp-aurangabad.jpg",
     },
 
     {
@@ -204,7 +218,7 @@ export const leaders = {
         en: "Lok Sabha MP (Thane)",
         mr: "लोकसभा खासदार (ठाणे)",
       },
-      image: "/images/leaders/mp/6.Naresh_Mhaske.jpg",
+      image: "/images/leaders/mp/naresh-mhaske-lok-sabha-mp-thane.jpg",
     },
 
     {
@@ -215,7 +229,8 @@ export const leaders = {
         en: "Lok Sabha MP (Mumbai North West)",
         mr: "लोकसभा खासदार (मुंबई उत्तर पश्चिम)",
       },
-      image: "/images/leaders/mp/7.Ravindra_Waikar.jpg",
+      image:
+        "/images/leaders/mp/ravindra-waikar-lok-sabha-mp-mumbai-north-west.jpg",
     },
   ],
 
@@ -228,7 +243,7 @@ export const leaders = {
         en: "MLA, Kopri-Pachpakhadi",
         mr: "आमदार, कोपरी-पाचपाखाडी",
       },
-      image: "/images/leaders/mla/1.Eknath_Shinde.jpg",
+      image: "/images/leaders/mla/eknath-shinde-mla-kopri-pachpakhadi.jpg",
     },
     {
       id: 2,
@@ -238,7 +253,7 @@ export const leaders = {
         en: "MLA, Patan",
         mr: "आमदार, पाटण",
       },
-      image: "/images/leaders/mla/2.Shambhuraj_Desai.jpg",
+      image: "/images/leaders/mla/shambhuraj-desai-mla-patan.jpg",
     },
     {
       id: 3,
@@ -248,7 +263,7 @@ export const leaders = {
         en: "MLA, Ovala-Majiwada",
         mr: "आमदार, ओवळा-माजीवाडा",
       },
-      image: "/images/leaders/mla/3.Pratap_Sarnaik.jpg",
+      image: "/images/leaders/mla/pratap-sarnaik-mla-ovala-majiwada.jpg",
     },
     {
       id: 4,
@@ -258,7 +273,7 @@ export const leaders = {
         en: "MLA, Aurangabad West",
         mr: "आमदार, औरंगाबाद पश्चिम",
       },
-      image: "/images/leaders/mla/4.Sanjay_Shirsat.jpg",
+      image: "/images/leaders/mla/sanjay-shirsat-mla-aurangabad-west.jpg",
     },
     {
       id: 5,
@@ -268,7 +283,7 @@ export const leaders = {
         en: "MLA, Ratnagiri",
         mr: "आमदार, रत्नागिरी",
       },
-      image: "/images/leaders/mla/5.Uday_Samant.png",
+      image: "/images/leaders/mla/uday-samant-mla-ratnagiri.png",
     },
     {
       id: 6,
@@ -278,7 +293,7 @@ export const leaders = {
         en: "MLA, Malegaon Outer",
         mr: "आमदार, मालेगाव बाह्य",
       },
-      image: "/images/leaders/mla/6.Dadaji_Bhuse.jpg",
+      image: "/images/leaders/mla/dadaji-bhuse-mla-malegaon-outer.jpg",
     },
     {
       id: 7,
@@ -288,7 +303,7 @@ export const leaders = {
         en: "MLA, Kalamnuri",
         mr: "आमदार, कळमनुरी",
       },
-      image: "/images/leaders/mla/7.Santosh_Bangar.png",
+      image: "/images/leaders/mla/santosh-bangar-mla-kalamnuri.png",
     },
     {
       id: 8,
@@ -298,7 +313,7 @@ export const leaders = {
         en: "MLA, Mahad",
         mr: "आमदार, महाड",
       },
-      image: "/images/leaders/mla/8.Bharat_Gogawale.png",
+      image: "/images/leaders/mla/bharat-gogawale-mla-mahad.png",
     },
     {
       id: 9,
@@ -308,7 +323,7 @@ export const leaders = {
         en: "MLA, Ramtek",
         mr: "आमदार, रामटेक",
       },
-      image: "/images/leaders/mla/9.Ashish_Jaiswal.png",
+      image: "/images/leaders/mla/ashish-jaiswal-mla-ramtek.png",
     },
     {
       id: 10,
@@ -318,7 +333,7 @@ export const leaders = {
         en: "MLA, Bhandara",
         mr: "आमदार, भंडारा",
       },
-      image: "/images/leaders/mla/10.Narendra_Bhondekar.jpg",
+      image: "/images/leaders/mla/narendra-bhondekar-mla-bhandara.jpg",
     },
 
     {
@@ -329,7 +344,7 @@ export const leaders = {
         en: "MLA, Digras",
         mr: "आमदार, दिग्रस",
       },
-      image: "/images/leaders/mla/11.Sanjay_Rathod.jpg",
+      image: "/images/leaders/mla/sanjay-rathod-mla-digras.jpg",
     },
     {
       id: 12,
@@ -339,7 +354,7 @@ export const leaders = {
         en: "MLA, Sakoli",
         mr: "आमदार, साकोली",
       },
-      image: "/images/leaders/mla/12.Baburao_Kohlikar.jpg",
+      image: "/images/leaders/mla/baburao-kohlikar-mla-sakoli.jpg",
     },
     {
       id: 13,
@@ -349,7 +364,7 @@ export const leaders = {
         en: "MLA, Nanded North",
         mr: "आमदार, नांदेड उत्तर",
       },
-      image: "/images/leaders/mla/13.Balaji_Kalyankar.jpg",
+      image: "/images/leaders/mla/balaji-kalyankar-mla-nanded-north.jpg",
     },
     {
       id: 14,
@@ -359,7 +374,7 @@ export const leaders = {
         en: "MLA, Pachora",
         mr: "आमदार, पाचोरा",
       },
-      image: "/images/leaders/mla/14.Kishor_Patil.png",
+      image: "/images/leaders/mla/kishor-patil-mla-pachora.png",
     },
     {
       id: 15,
@@ -369,7 +384,7 @@ export const leaders = {
         en: "MLA, Deglur",
         mr: "आमदार, देगलूर",
       },
-      image: "/images/leaders/mla/15.Hikmat_Udhan.jpeg",
+      image: "/images/leaders/mla/hikmat-udhan-mla-deglur.jpeg",
     },
     {
       id: 16,
@@ -379,7 +394,7 @@ export const leaders = {
         en: "MLA, Jalna",
         mr: "आमदार, जालना",
       },
-      image: "/images/leaders/mla/16.Arjun_Khotkar.jpg",
+      image: "/images/leaders/mla/arjun-khotkar-mla-jalna.jpg",
     },
     {
       id: 17,
@@ -389,7 +404,7 @@ export const leaders = {
         en: "MLA, Sillod",
         mr: "आमदार, सिल्लोड",
       },
-      image: "/images/leaders/mla/17.Abdul_Sattar.jpg",
+      image: "/images/leaders/mla/abdul-sattar-mla-sillod.jpg",
     },
     {
       id: 18,
@@ -399,7 +414,7 @@ export const leaders = {
         en: "MLA, Buldhana",
         mr: "आमदार, बुलढाणा",
       },
-      image: "/images/leaders/mla/18.Sanjana_Jadhav.jpg",
+      image: "/images/leaders/mla/sanjana-jadhav-mla-buldhana.jpg",
     },
     {
       id: 19,
@@ -409,7 +424,7 @@ export const leaders = {
         en: "MLA, Aurangabad Central",
         mr: "आमदार, औरंगाबाद मध्य",
       },
-      image: "/images/leaders/mla/19.Pradeep_Jaiswal.jpg",
+      image: "/images/leaders/mla/pradeep-jaiswal-mla-aurangabad-central.jpg",
     },
     {
       id: 20,
@@ -419,7 +434,7 @@ export const leaders = {
         en: "MLA, Chopda",
         mr: "आमदार, चोपडा",
       },
-      image: "/images/leaders/mla/20.Chandrakant_Sonawane.jpg",
+      image: "/images/leaders/mla/chandrakant-sonawane-mla-chopda.jpg",
     },
     {
       id: 21,
@@ -429,7 +444,7 @@ export const leaders = {
         en: "MLA, Paithan",
         mr: "आमदार, पैठण",
       },
-      image: "/images/leaders/mla/21.Vilas_Bhumre.jpeg",
+      image: "/images/leaders/mla/vilas-bhumre-mla-paithan.jpeg",
     },
     {
       id: 22,
@@ -439,7 +454,7 @@ export const leaders = {
         en: "MLA, Vaijapur",
         mr: "आमदार, वैजापूर",
       },
-      image: "/images/leaders/mla/22.Ramesh_Bornare.jpg",
+      image: "/images/leaders/mla/ramesh-bornare-mla-vaijapur.jpg",
     },
     {
       id: 23,
@@ -449,7 +464,7 @@ export const leaders = {
         en: "MLA, Nandgaon",
         mr: "आमदार, नांदगाव",
       },
-      image: "/images/leaders/mla/23.Suhas_Kande.jpg",
+      image: "/images/leaders/mla/suhas-kande-mla-nandgaon.jpg",
     },
     {
       id: 24,
@@ -459,7 +474,7 @@ export const leaders = {
         en: "MLA, Shahada",
         mr: "आमदार, शहादा",
       },
-      image: "/images/leaders/mla/24.Amol_Patil.jpg",
+      image: "/images/leaders/mla/amol-patil-mla-shahada.jpg",
     },
     {
       id: 25,
@@ -469,7 +484,7 @@ export const leaders = {
         en: "MLA, Palghar",
         mr: "आमदार, पालघर",
       },
-      image: "/images/leaders/mla/25.Rajendra_Gavit.jpg",
+      image: "/images/leaders/mla/rajendra-gavit-mla-palghar.jpg",
     },
     {
       id: 26,
@@ -479,7 +494,7 @@ export const leaders = {
         en: "MLA, Bhiwandi Rural",
         mr: "आमदार, भिवंडी ग्रामीण",
       },
-      image: "/images/leaders/mla/26.Vilas_Tare.jpeg",
+      image: "/images/leaders/mla/vilas-tare-mla-bhiwandi-rural.jpeg",
     },
     {
       id: 27,
@@ -489,7 +504,7 @@ export const leaders = {
         en: "MLA, Bhiwandi West",
         mr: "आमदार, भिवंडी पश्चिम",
       },
-      image: "/images/leaders/mla/27.Shantaram_More.jpg",
+      image: "/images/leaders/mla/shantaram-more-mla-bhiwandi-west.jpg",
     },
     {
       id: 28,
@@ -499,7 +514,7 @@ export const leaders = {
         en: "MLA, Kalyan West",
         mr: "आमदार, कल्याण पश्चिम",
       },
-      image: "/images/leaders/mla/28.Vishwanath_Bhoir.jpg",
+      image: "/images/leaders/mla/vishwanath-bhoir-mla-kalyan-west.jpg",
     },
     {
       id: 29,
@@ -509,7 +524,7 @@ export const leaders = {
         en: "MLA, Ambernath",
         mr: "आमदार, अंबरनाथ",
       },
-      image: "/images/leaders/mla/29.Balaji_Kinikar.jpg",
+      image: "/images/leaders/mla/balaji-kinikar-mla-ambernath.jpg",
     },
     {
       id: 30,
@@ -519,7 +534,7 @@ export const leaders = {
         en: "MLA, Bhiwandi East",
         mr: "आमदार, भिवंडी पूर्व",
       },
-      image: "/images/leaders/mla/30.Rajesh_More.jpeg",
+      image: "/images/leaders/mla/rajesh-more-mla-bhiwandi-east.jpeg",
     },
 
     {
@@ -530,7 +545,7 @@ export const leaders = {
         en: "MLA, Sakri",
         mr: "आमदार, साक्री",
       },
-      image: "/images/leaders/mla/31.Manjula_Gavit.jpg",
+      image: "/images/leaders/mla/manjula-gavit-mla-sakri.jpg",
     },
     {
       id: 32,
@@ -540,7 +555,7 @@ export const leaders = {
         en: "MLA, Jalgaon Rural",
         mr: "आमदार, जळगाव ग्रामीण",
       },
-      image: "/images/leaders/mla/32.Gulabrao_Patil.jpg",
+      image: "/images/leaders/mla/gulabrao-patil-mla-jalgaon-rural.jpg",
     },
     {
       id: 33,
@@ -550,7 +565,7 @@ export const leaders = {
         en: "MLA, Magathane",
         mr: "आमदार, मागाठाणे",
       },
-      image: "/images/leaders/mla/33.Prakash_Surve.jpg",
+      image: "/images/leaders/mla/prakash-surve-mla-magathane.jpg",
     },
     {
       id: 34,
@@ -560,7 +575,7 @@ export const leaders = {
         en: "MLA, Pachora",
         mr: "आमदार, पाचोरा",
       },
-      image: "/images/leaders/mla/34.Ashok_Patil.jpeg",
+      image: "/images/leaders/mla/ashok-patil-mla-pachora.jpeg",
     },
     {
       id: 35,
@@ -570,7 +585,7 @@ export const leaders = {
         en: "MLA, Andheri East",
         mr: "आमदार, अंधेरी पूर्व",
       },
-      image: "/images/leaders/mla/35.Murji_Patel.jpeg",
+      image: "/images/leaders/mla/murji-patel-mla-andheri-east.jpeg",
     },
     {
       id: 36,
@@ -580,7 +595,7 @@ export const leaders = {
         en: "MLA, Chandivali",
         mr: "आमदार, चांदिवली",
       },
-      image: "/images/leaders/mla/36.Dilip_Lande.jpg",
+      image: "/images/leaders/mla/dilip-lande-mla-chandivali.jpg",
     },
     {
       id: 37,
@@ -590,7 +605,7 @@ export const leaders = {
         en: "MLA, Anushakti Nagar",
         mr: "आमदार, अणुशक्तीनगर",
       },
-      image: "/images/leaders/mla/37.Tukaram_Kate.jpeg",
+      image: "/images/leaders/mla/tukaram-kate-mla-anushakti-nagar.jpeg",
     },
     {
       id: 38,
@@ -600,7 +615,7 @@ export const leaders = {
         en: "MLA, Kurla",
         mr: "आमदार, कुर्ला",
       },
-      image: "/images/leaders/mla/38.Mangesh_Kudalkar.jpg",
+      image: "/images/leaders/mla/mangesh-kudalkar-mla-kurla.jpg",
     },
     {
       id: 39,
@@ -610,7 +625,7 @@ export const leaders = {
         en: "MLA, Karjat",
         mr: "आमदार, कर्जत",
       },
-      image: "/images/leaders/mla/39.Mahendra_Thorve.jpg",
+      image: "/images/leaders/mla/mahendra-thorve-mla-karjat.jpg",
     },
     {
       id: 40,
@@ -620,7 +635,7 @@ export const leaders = {
         en: "MLA, Alibag",
         mr: "आमदार, अलीबाग",
       },
-      image: "/images/leaders/mla/40.Mahendra_Dalvi.jpg",
+      image: "/images/leaders/mla/mahendra-dalvi-mla-alibag.jpg",
     },
     {
       id: 41,
@@ -630,7 +645,7 @@ export const leaders = {
         en: "MLA, Buldhana",
         mr: "आमदार, बुलढाणा",
       },
-      image: "/images/leaders/mla/41.Sanjay_Gaikwad.png",
+      image: "/images/leaders/mla/sanjay-gaikwad-mla-buldhana.png",
     },
     {
       id: 42,
@@ -640,7 +655,7 @@ export const leaders = {
         en: "MLA, Purandar",
         mr: "आमदार, पुरंदर",
       },
-      image: "/images/leaders/mla/42.Vijay_Shivtare.jpeg",
+      image: "/images/leaders/mla/vijay-shivtare-mla-purandar.jpeg",
     },
     {
       id: 43,
@@ -650,7 +665,7 @@ export const leaders = {
         en: "MLA, Junnar",
         mr: "आमदार, जुन्नर",
       },
-      image: "/images/leaders/mla/43.Sharad_Sonawane.jpeg",
+      image: "/images/leaders/mla/sharad-sonawane-mla-junnar.jpeg",
     },
     {
       id: 44,
@@ -660,7 +675,7 @@ export const leaders = {
         en: "MLA, Khed Alandi",
         mr: "आमदार, खेड-आळंदी",
       },
-      image: "/images/leaders/mla/44.Amol_Khatal.jpeg",
+      image: "/images/leaders/mla/amol-khatale-mla-khed-alandi.jpeg",
     },
     {
       id: 45,
@@ -670,7 +685,8 @@ export const leaders = {
         en: "MLA, Tasgaon-Kavathe Mahankal",
         mr: "आमदार, तासगाव-कवठे महांकाळ",
       },
-      image: "/images/leaders/mla/45.Vitthal_Patil.jpeg",
+      image:
+        "/images/leaders/mla/vitthal-patil-mla-tasgaon-kavathe-mahankal.jpeg",
     },
     {
       id: 46,
@@ -680,7 +696,7 @@ export const leaders = {
         en: "MLA, Paranda",
         mr: "आमदार, परांडा",
       },
-      image: "/images/leaders/mla/46.Tanaji_Sawant.jpg",
+      image: "/images/leaders/mla/tanaji-sawant-mla-paranda.jpg",
     },
     {
       id: 47,
@@ -690,7 +706,7 @@ export const leaders = {
         en: "MLA, Koregaon",
         mr: "आमदार, कोरेगाव",
       },
-      image: "/images/leaders/mla/47.Mahesh_Shinde.png",
+      image: "/images/leaders/mla/mahesh-shinde-mla-koregaon.png",
     },
     {
       id: 48,
@@ -700,7 +716,7 @@ export const leaders = {
         en: "MLA, Dapoli",
         mr: "आमदार, दापोली",
       },
-      image: "/images/leaders/mla/48.Yogesh_Kadam.jpg",
+      image: "/images/leaders/mla/yogesh-kadam-mla-dapoli.jpg",
     },
     {
       id: 49,
@@ -710,7 +726,7 @@ export const leaders = {
         en: "MLA, Rajapur",
         mr: "आमदार, राजापूर",
       },
-      image: "/images/leaders/mla/49.Kiran_Samant.jpg",
+      image: "/images/leaders/mla/kiran-samant-mla-rajapur.jpg",
     },
     {
       id: 50,
@@ -720,7 +736,7 @@ export const leaders = {
         en: "MLA, Kudal",
         mr: "आमदार, कुडाळ",
       },
-      image: "/images/leaders/mla/50.Nilesh_Rane.jpg",
+      image: "/images/leaders/mla/nilesh-rane-mla-kudal.jpg",
     },
 
     {
@@ -731,7 +747,7 @@ export const leaders = {
         en: "MLA, Sawantwadi",
         mr: "आमदार, सावंतवाडी",
       },
-      image: "/images/leaders/mla/51.Deepak_Kesarkar.jpg",
+      image: "/images/leaders/mla/deepak-kesarkar-mla-sawantwadi.jpg",
     },
     {
       id: 52,
@@ -741,7 +757,7 @@ export const leaders = {
         en: "MLA, Radhanagari",
         mr: "आमदार, राधानगरी",
       },
-      image: "/images/leaders/mla/52.Prakash_Abitkar.jpg",
+      image: "/images/leaders/mla/prakash-abitkar-mla-radhanagari.jpg",
     },
     {
       id: 53,
@@ -751,7 +767,7 @@ export const leaders = {
         en: "MLA, Kolhapur North",
         mr: "आमदार, कोल्हापूर उत्तर",
       },
-      image: "/images/leaders/mla/53.Rajesh_Kshirsagar.jpg",
+      image: "/images/leaders/mla/rajesh-kshirsagar-mla-kolhapur-north.jpg",
     },
     {
       id: 54,
@@ -761,7 +777,7 @@ export const leaders = {
         en: "MLA, Hatkanangale",
         mr: "आमदार, हातकणंगले",
       },
-      image: "/images/leaders/mla/54.Ashokrao_Mane.jpg",
+      image: "/images/leaders/mla/ashokrao-mane-mla-hatkanangale.jpg",
     },
     {
       id: 55,
@@ -771,7 +787,7 @@ export const leaders = {
         en: "MLA, Khanapur",
         mr: "आमदार, खानापूर",
       },
-      image: "/images/leaders/mla/55.Suhas_Babar.jpg",
+      image: "/images/leaders/mla/suhas-babar-mla-khanapur.jpg",
     },
     {
       id: 56,
@@ -781,7 +797,7 @@ export const leaders = {
         en: "MLA, Shirol",
         mr: "आमदार, शिरोळ",
       },
-      image: "/images/leaders/mla/56.Rajendra_Yadravkar.jpeg",
+      image: "/images/leaders/mla/rajendra-yadravkar-mla-shirol.jpeg",
     },
   ],
 

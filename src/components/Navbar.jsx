@@ -42,7 +42,7 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-3 group">
               <img
                 src="/images/icon/logo.png"
-                alt="Logo"
+                alt="Shisvena Official Logo"
                 className="w-12 h-12 object-cover rounded-full shadow-lg"
               />
               <div className="sm:block">

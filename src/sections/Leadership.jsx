@@ -12,9 +12,11 @@ function LeaderCard({ leader, lang }) {
         <div className="w-full h-full rounded-full overflow-hidden border-2 border-orange-500/30 group-hover:border-orange-500/70 transition-colors duration-300 shadow-lg shadow-orange-950/30">
           <img
             src={leader.image}
-            alt={leader.name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            alt={`${leader.name} - ${leader.role.en}`}
+            title={leader.name}
             loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
         <div className="absolute inset-0 rounded-full ring-2 ring-orange-500/0 group-hover:ring-orange-500/30 ring-offset-2 ring-offset-transparent transition-all duration-300" />

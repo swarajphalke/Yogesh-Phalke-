@@ -7,11 +7,8 @@ import {
   FacebookIcon,
   InstagramIcon,
   WhatsappIcon,
-  YoutubeIcon,
-  XIcon,
-} from "../components/SocialIcons";
-import Footer from "../components/Footer";
-
+ } from "../components/SocialIcons";
+ 
 export default function Contact() {
   const { t, lang } = useLang();
   const c = t.contact;
@@ -26,14 +23,18 @@ export default function Contact() {
   };
 
   const socials = [
-    { Icon: FacebookIcon, link: "https://www.facebook.com/yoogeshphalke.59/" },
+    {
+      Icon: FacebookIcon,
+      link: "https://www.facebook.com/yoogeshphalke.59/",
+      label: "Facebook",
+    },
     {
       Icon: InstagramIcon,
       link: "https://www.instagram.com/yoogeshphalke_/",
+      label: "Instagram",
     },
-    { Icon: WhatsappIcon, link: "https://wa.me/919172539959" },
-    // { Icon: XIcon, link: "https://x.com/yourhandle" },
-  ];
+    { Icon: WhatsappIcon, link: "https://wa.me/919172539959", label: "WhatsApp" },
+   ];
 
   return (
     <section id="contact" className="py-20 md:py-28 pattern-bg">
@@ -98,12 +99,14 @@ export default function Contact() {
                 {lang === "mr" ? "सोशल मीडिया" : "Social Media"}
               </div>
               <div className="flex gap-3">
-                {socials.map(({ Icon, link }, i) => (
+                {socials.map(({ Icon, link, label }, i) => (
                   <a
                     key={i}
                     href={link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={label}
+                    title={label}
                     className="w-10 h-10 glass rounded-xl flex items-center justify-center text-white/40 hover:text-orange-400 transition-colors hover-lift"
                   >
                     <Icon size={16} />
@@ -166,6 +169,7 @@ export default function Contact() {
                       <input
                         type={f.type}
                         name={f.name}
+                        autoComplete={f.name}
                         required
                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-orange-500/50 transition-colors"
                         placeholder={f.label}
@@ -179,6 +183,7 @@ export default function Contact() {
                     <textarea
                       name="message"
                       rows={5}
+                      autoComplete="off"
                       required
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-orange-500/50 transition-colors resize-none"
                       placeholder={c.formMsg}
@@ -196,7 +201,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <br />
       <br />
     </section>
   );

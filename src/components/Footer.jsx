@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLang } from "../context/LangContext";
 import { FacebookIcon, InstagramIcon, WhatsappIcon } from "./SocialIcons";
-
+import { Phone, Mail, MapPin } from "lucide-react";
 export default function Footer() {
   const { t } = useLang();
 
@@ -11,20 +11,24 @@ export default function Footer() {
     { name: "press", path: "/press" },
     { name: "banners", path: "/campaigns" },
     { name: "videos", path: "/videos" },
-    { name: "leadership", path: "/leadership" },
-  ];
+   ];
 
   const socials = [
-    { Icon: FacebookIcon, link: "https://www.facebook.com/yoogeshphalke.59/" },
+    {
+      Icon: FacebookIcon,
+      link: "https://www.facebook.com/yoogeshphalke.59/",
+      label: "Facebook",
+    },
     {
       Icon: InstagramIcon,
       link: "https://www.instagram.com/yoogeshphalke_/",
+      label: "Instagram",
     },
-    { Icon: WhatsappIcon, link: "https://wa.me/919172539959" },
+    { Icon: WhatsappIcon, link: "https://wa.me/919172539959", label: "Whatsapp" },
   ];
 
   return (
-    <footer className="bg-[#080100] border-t border-orange-900/20 relative overflow-hidden pb-14">
+    <footer className="bg-[#080100] border-t border-orange-900/20 relative overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute inset-0 bg-gradient-to-t from-orange-900/10 via-transparent to-transparent pointer-events-none" />
 
@@ -35,7 +39,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <img
                 src="/images/icon/logo.png"
-                alt="Logo"
+                alt="Shisvena Official Logo"
                 className="w-11 h-11 object-cover rounded-full shadow-lg border border-orange-500/20"
               />
               <div>
@@ -70,14 +74,14 @@ export default function Footer() {
               <div className="flex-1 h-px bg-orange-500/20" />
             </div>
 
-            <div className="grid grid-cols-2 gap-y-3 gap-x-2">
+            <div className="space-y-3">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="flex items-center gap-1.5 text-white/40 hover:text-orange-400 text-sm transition-all duration-300 group"
+                  className="flex items-center gap-2 text-white/40 hover:text-orange-400 text-sm transition-all duration-300 group"
                 >
-                  <span className="text-orange-400/40 group-hover:text-orange-400 transition-colors">
+                  <span className="text-orange-400/40 group-hover:text-orange-400">
                     ›
                   </span>
                   {t.nav[link.name]}
@@ -94,12 +98,14 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3 mb-6">
-              {socials.map(({ Icon, link }, i) => (
+              {socials.map(({ Icon, link, label }, i) => (
                 <a
                   key={i}
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={label}
+                  title={label}
                   className="w-10 h-10 rounded-xl bg-white/4 border border-white/10 flex items-center justify-center text-white/40 hover:text-orange-400 hover:border-orange-500/40 hover:bg-orange-500/8 transition-all duration-300 hover:scale-110"
                 >
                   <Icon size={17} />
@@ -109,17 +115,39 @@ export default function Footer() {
 
             <div className="space-y-3">
               {[
-                { icon: "📍", text: "Wai, Satara, Maharashtra" },
-                { icon: "📞", text: "+91 9172539959" },
-              ].map(({ icon, text }) => (
+                {
+                  icon: Phone,
+                  text: "+91 9172539959",
+                  href: "tel:+919172539959",
+                },
+                {
+                  icon: Mail,
+                  text: "yogeshphalke@shivsena.org",
+                  href: "mailto:yogeshphalke@shivsena.org",
+                },
+                {
+                  icon: MapPin,
+                  text: "Wai, Satara, Maharashtra",
+                },
+              ].map(({ icon: Icon, text, href }) => (
                 <div
                   key={text}
                   className="flex items-center gap-3 text-white/35 text-sm"
                 >
-                  <div className="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/15 flex items-center justify-center text-xs flex-shrink-0">
-                    {icon}
+                  <div className="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/15 flex items-center justify-center flex-shrink-0">
+                    <Icon size={14} className="text-orange-400" />
                   </div>
-                  <span>{text}</span>
+
+                  {href ? (
+                    <a
+                      href={href}
+                      className="hover:text-orange-400 transition-colors"
+                    >
+                      {text}
+                    </a>
+                  ) : (
+                    <span>{text}</span>
+                  )}
                 </div>
               ))}
             </div>

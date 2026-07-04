@@ -25,8 +25,10 @@ function BannerCard({ item, lang, onClick }) {
       {/* Image */}
       <img
         src={item.image}
-        alt={item.title.en}
+        alt={`Yogesh Phalke - ${item.title.en}`}
+        title={item.title.en}
         loading="lazy"
+        decoding="async"
         onLoad={() => setLoaded(true)}
         className={`w-full h-full object-cover transition duration-500 group-hover:scale-105 ${
           loaded ? "opacity-100" : "opacity-0"
@@ -70,7 +72,10 @@ function ImageModal({ selected, onClose }) {
     >
       <img
         src={selected.image}
-        alt="preview"
+        alt={`Yogesh Phalke - ${selected.title.en}`}
+        title={selected.title.en}
+        loading="eager"
+        decoding="async"
         className="max-w-full max-h-full rounded-lg shadow-lg"
       />
     </div>

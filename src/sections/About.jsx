@@ -34,12 +34,24 @@ export default function About() {
 
   const [readMore, setReadMore] = useState(false);
 
- const images = [
-   "/images/profile1.jpg",
-   "/images/profile2.png",
-   "/images/profile3.jpeg",
-   "/images/profile4.jpeg",
- ];
+const images = [
+  {
+    src: "/images/yogesh-phalke-official-portrait.jpg",
+    alt: "Official portrait of Yogesh Phalke",
+  },
+  {
+    src: "/images/yogesh-phalke-with-eknath-shinde.jpg",
+    alt: "Yogesh Phalke with Eknath Shinde",
+  },
+  {
+    src: "/images/yogesh-phalke-meeting-eknath-shinde.jpeg",
+    alt: "Yogesh Phalke meeting with Eknath Shinde",
+  },
+  {
+    src: "/images/yogesh-phalke-temple-visit.jpeg",
+    alt: "Yogesh Phalke offering prayers at a temple",
+  },
+];
 
  const [currentImage, setCurrentImage] = useState(0);
 
@@ -64,9 +76,11 @@ export default function About() {
                 {images.map((image, index) => (
                   <img
                     key={index}
-                    src={image}
-                    alt="Yogesh Phalke"
-                    loading="lazy"
+                    src={image.src}
+                    alt={image.alt}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    fetchPriority={index === 0 ? "high" : "auto"}
+                    decoding="async"
                     className={`absolute top-0 left-0 w-full h-full object-cover object-center transition-all duration-[2000ms] ease-in-out ${
                       index === currentImage
                         ? "opacity-100 scale-100"

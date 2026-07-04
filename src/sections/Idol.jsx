@@ -16,7 +16,10 @@ function IdolCard({ img, name, info, quote, delay, lang }) {
       <div className="relative w-full overflow-hidden rounded-3xl">
         <img
           src={img}
-          alt={name.en}
+          alt={`${name.en} - ${quote.en}`}
+          title={name.en}
+          loading="lazy"
+          decoding="async"
           className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105 transform-gpu will-change-transform"
         />
 

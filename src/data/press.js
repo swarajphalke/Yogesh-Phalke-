@@ -1,8 +1,8 @@
 export const pressNotes = [
   // ===== 2026 =====
   {
-    id: 33,
-    image: "/images/press/press33.jpeg",
+    id: 36,
+    image: "/images/press/shiv-kamgar-sena-public-recruitment-drive-wai.jpeg",
     title: {
       en: "Recruitment drive announcement for workers in Wai",
       mr: "वाई येथे कामगारांसाठी भरती मुलाखती जाहीर",
@@ -16,8 +16,9 @@ export const pressNotes = [
   },
 
   {
-    id: 31,
-    image: "/images/press/press31.png",
+    id: 35,
+    image:
+      "/images/press/yogesh-phalke-strengthens-shiv-kamgar-sena-satara.png",
     title: {
       en: "Strengthening Shiv Kamgar Sena in Satara district",
       mr: "सातारा जिल्ह्यात शिव कामगार सेनेचे बळकटीकरण",
@@ -31,8 +32,9 @@ export const pressNotes = [
   },
 
   {
-    id: 32,
-    image: "/images/press/press32.jpeg",
+    id: 34,
+    image:
+      "/images/press/shiv-kamgar-sena-recruitment-interview-wai-april-2026.jpeg",
     title: {
       en: "Workers' rights campaign announced in Wai",
       mr: "वाई येथे कामगार हक्कांसाठी मोहीम जाहीर",
@@ -45,8 +47,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 29,
-    image: "/images/press/press29.jpeg",
+    id: 33,
+    image: "/images/press/yogesh-phalke-shiv-kamgar-sena-membership-drive.jpeg",
     title: {
       en: "Workers' rights initiative gains momentum in Satara",
       mr: "साताऱ्यात कामगार हक्कांसाठी मोहीम गतीमान",
@@ -59,8 +61,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 30,
-    image: "/images/press/press30.jpeg",
+    id: 32,
+    image:
+      "/images/press/satara-shiv-kamgar-sena-workers-membership-interview.jpeg",
     title: {
       en: "Industrial workers' voice to grow stronger in Satara",
       mr: "साताऱ्यात कामगारांचा आवाज अधिक बुलंद होणार",
@@ -74,8 +77,9 @@ export const pressNotes = [
   },
 
   {
-    id: 35,
-    image: "/images/press/press35.jpeg",
+    id: 31,
+    image:
+      "/images/press/shiv-kamgar-sena-wai-membership-interview-april-2026.jpeg",
     title: {
       en: "Decision to strengthen workers' movement in Wai",
       mr: "वाईत कामगार चळवळ बळकट करण्याचा निर्णय",
@@ -88,8 +92,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 36,
-    image: "/images/press/press36.png",
+    id: 30,
+    image:
+      "/images/press/satara-news-shiv-kamgar-sena-recruitment-campaign-wai.png",
     title: {
       en: "Shiv Kamgar Sena campaign gains pace in Satara",
       mr: "साताऱ्यात शिव कामगार सेनेची मोहीम वेगात",
@@ -102,8 +107,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 34,
-    image: "/images/press/press34.jpeg",
+    id: 29,
+    image: "/images/press/satara-shiv-kamgar-sena-organization-expansion.jpeg",
     title: {
       en: "Organizational campaign of Shiv Kamgar Sena accelerates",
       mr: "शिव कामगार सेनेची संघटनात्मक मोहीम वेगात",
@@ -116,8 +121,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 1,
-    image: "/images/press/press1.jpg",
+    id: 28,
+    image:
+      "/images/press/yogesh-phalke-anewadi-toll-plaza-facilities-protest.jpg",
     title: {
       en: "Protest over lack of basic facilities at Anewadi toll plaza",
       mr: "आनेवाडी टोल नाक्यावर मूलभूत सुविधांचा अभाव; प्रवाशांचा संताप",
@@ -130,8 +136,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 2,
-    image: "/images/press/press2.jpg",
+    id: 27,
+    image: "/images/press/yogesh-phalke-anewadi-toll-plaza-toilet-demand.jpg",
     title: {
       en: "Demand for toilets at Anewadi toll plaza",
       mr: "आनेवाडी टोलनाक्यावर शौचालयांची मागणी",
@@ -144,8 +150,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 3,
-    image: "/images/press/press3.jpg",
+    id: 26,
+    image:
+      "/images/press/yogesh-phalke-midc-worker-exploitation-allegations.jpg",
     title: {
       en: "Discussion on workers' issues in MIDC area",
       mr: "एमआयडीसी परिसरातील कामगारांच्या समस्यांवर चर्चा",
@@ -158,8 +165,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 4,
-    image: "/images/press/press4.jpg",
+    id: 25,
+    image: "/images/press/yogesh-phalke-midc-worker-exploitation-news.jpg",
     title: {
       en: "Serious allegations against companies exploiting workers",
       mr: "कामगारांच्या पिळवणुकीबाबत गंभीर आरोप",
@@ -172,8 +179,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 5,
-    image: "/images/press/press5.jpg",
+    id: 24,
+    image: "/images/press/yogesh-phalke-midc-worker-rights-muktagiri.jpg",
     title: {
       en: "Allegations of worker exploitation in MIDC Wai",
       mr: "वाई एमआयडीसीमध्ये कामगारांची पिळवणूक?",
@@ -186,8 +193,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 6,
-    image: "/images/press/press6.jpg",
+    id: 23,
+    image: "/images/press/yogesh-phalke-pune-bangalore-highway-road-safety.jpg",
     title: {
       en: "Dangerous road conditions on Pune-Bangalore highway",
       mr: "पुणे-बंगळूर महामार्गावर धोकादायक परिस्थिती",
@@ -200,8 +207,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 7,
-    image: "/images/press/press7.jpg",
+    id: 22,
+    image: "/images/press/yogesh-phalke-midc-local-workers-priority-demand.jpg",
     title: {
       en: "Demand to prioritize local workers in MIDC",
       mr: "एमआयडीसीमध्ये स्थानिकांना प्राधान्य देण्याची मागणी",
@@ -214,8 +221,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 8,
-    image: "/images/press/press8.jpg",
+    id: 21,
+    image: "/images/press/yogesh-phalke-midc-local-workers-injustice.jpg",
     title: {
       en: "Injustice against local workers in MIDC raised",
       mr: "एमआयडीसीमध्ये स्थानिक कामगारांवर अन्याय; मुद्दा उपस्थित",
@@ -228,8 +235,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 9,
-    image: "/images/press/press9.jpg",
+    id: 20,
+    image:
+      "/images/press/yogesh-phalke-migrant-workers-verification-demand.jpg",
     title: {
       en: "Demand for investigation into migrant workers in companies",
       mr: "कंपन्यांमधील परप्रांतीय कामगारांची चौकशी करा",
@@ -244,8 +252,8 @@ export const pressNotes = [
 
   // ===== 2025 =====
   {
-    id: 18,
-    image: "/images/press/press18.jpg",
+    id: 19,
+    image: "/images/press/yogesh-phalke-ward-10-election-campaign-support.jpg",
     title: {
       en: "Strong public support for Shiv Sena campaign in Wai",
       mr: "वाईत शिवसेनेच्या प्रचाराला नागरिकांचा मोठा प्रतिसाद",
@@ -258,8 +266,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 19,
-    image: "/images/press/press19.jpg",
+    id: 18,
+    image:
+      "/images/press/yogesh-phalke-shiv-sena-decisive-role-wai-election.jpg",
     title: {
       en: "Shiv Sena plays decisive role in Wai politics",
       mr: "वाईत शिवसेनेची निर्णायक भूमिका",
@@ -272,8 +281,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 20,
-    image: "/images/press/press20.jpg",
+    id: 17,
+    image: "/images/press/yogesh-phalke-ward-10-public-support-campaign.jpg",
     title: {
       en: "Wave of support in Ward 10 for Yogesh Phalke",
       mr: "प्रभाग १० मध्ये योगेश फाळके यांना वाढता पाठिंबा",
@@ -286,8 +295,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 21,
-    image: "/images/press/press21.jpg",
+    id: 16,
+    image: "/images/press/shiv-sena-shambhuraj-desai-wai-election-rally.jpg",
     title: {
       en: "Grand rally held under leadership of Shambhuraj Desai",
       mr: "शंभूराज देसाई यांच्या नेतृत्वाखाली भव्य रॅली",
@@ -295,13 +304,14 @@ export const pressNotes = [
     source: "Janlok Varta",
     date: "27 Nov 2025",
     desc: {
-      en: "A large public rally was आयोजित with active participation from party workers and citizens.",
+      en: "A large public rally was organized with active participation from party workers and citizens.",
       mr: "पक्ष कार्यकर्ते व नागरिकांच्या सहभागाने मोठी सभा आयोजित करण्यात आली.",
     },
   },
   {
-    id: 22,
-    image: "/images/press/press22.jpg",
+    id: 15,
+    image:
+      "/images/press/yogesh-phalke-shiv-sena-election-campaign-ward-10.jpg",
     title: {
       en: "Shiv Sena campaign gains momentum in Ward 10",
       mr: "प्रभाग १० मध्ये शिवसेनेचा प्रचार रंगात",
@@ -314,8 +324,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 23,
-    image: "/images/press/press23.jpg",
+    id: 14,
+    image: "/images/press/yogesh-phalke-three-years-public-service-ward-10.jpg",
     title: {
       en: "Continuous work for citizens even without official position",
       mr: "पद नसतानाही जनतेसाठी सलग तीन वर्षे काम",
@@ -328,8 +338,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 24,
-    image: "/images/press/press24.jpg",
+    id: 13,
+    image: "/images/press/yogesh-phalke-public-support-election-campaign.jpg",
     title: {
       en: "Three years of continuous public service without position",
       mr: "पद नसतानाही तीन वर्षे सातत्याने जनतेसाठी काम",
@@ -342,8 +352,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 25,
-    image: "/images/press/press25.jpg",
+    id: 12,
+    image: "/images/press/wai-shiv-sena-bjp-alliance-election-preparation.jpg",
     title: {
       en: "Shiv Sena-BJP alliance discussion in Wai",
       mr: "वाईत शिवसेना-भाजप युतीबाबत चर्चा",
@@ -356,8 +366,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 26,
-    image: "/images/press/press26.jpg",
+    id: 11,
+    image: "/images/press/wai-shiv-sena-municipal-election-preparation.jpg",
     title: {
       en: "Shiv Sena prepares strongly for municipal elections",
       mr: "नगरपालिका निवडणुकीसाठी शिवसेनेची जोरदार तयारी",
@@ -371,8 +381,8 @@ export const pressNotes = [
   },
 
   {
-    id: 12,
-    image: "/images/press/press12.jpg",
+    id: 10,
+    image: "/images/press/yogesh-phalke-speed-breakers-installed-wai-city.jpg",
     title: {
       en: "New speed breakers installed across Wai city",
       mr: "वाई शहरात नवीन स्पीड ब्रेकर बसवले",
@@ -385,8 +395,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 13,
-    image: "/images/press/press13.jpg",
+    id: 9,
+    image: "/images/press/yogesh-phalke-new-speed-breakers-wai-sakal.jpg",
     title: {
       en: "Public appreciates installation of speed breakers",
       mr: "स्पीड ब्रेकर बसवल्याबद्दल नागरिकांकडून कौतुक",
@@ -399,8 +409,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 14,
-    image: "/images/press/press14.jpg",
+    id: 8,
+    image: "/images/press/yogesh-phalke-road-safety-speed-breakers-wai.jpg",
     title: {
       en: "Speed breaker initiative brings relief to citizens",
       mr: "स्पीड ब्रेकर उपक्रमामुळे नागरिकांना दिलासा",
@@ -413,8 +423,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 15,
-    image: "/images/press/press15.jpg",
+    id: 7,
+    image: "/images/press/yogesh-phalke-speed-breaker-initiative-wai-city.jpg",
     title: {
       en: "Speed breaker initiative brings relief to Wai citizens",
       mr: "वाई शहरात स्पीड ब्रेकर उपक्रमामुळे नागरिकांना दिलासा",
@@ -427,8 +437,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 16,
-    image: "/images/press/press16.jpg",
+    id: 6,
+    image: "/images/press/yogesh-phalke-film-industry-comeback-story.jpg",
     title: {
       en: "Yogesh Phalke's comeback journey in film industry",
       mr: "योगेश फाळके यांची चित्रपटसृष्टीतील पुनरागमनाची प्रेरणादायी कहाणी",
@@ -441,8 +451,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 17,
-    image: "/images/press/press17.jpg",
+    id: 5,
+    image: "/images/press/yogesh-phalke-shiv-sena-jawali-taluka-meeting.jpg",
     title: {
       en: "Shiv Sena strengthening presence in Jawali Taluka",
       mr: "जावळी तालुक्यात शिवसेनेची संघटना मजबूत",
@@ -455,8 +465,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 10,
-    image: "/images/press/press10.jpg",
+    id: 4,
+    image: "/images/press/yogesh-phalke-imtiaz-jaleel-protest-shiv-sena.jpg",
     title: {
       en: "Shiv Sena protest over Jaleel remarks in Satara",
       mr: "जलील यांच्या वक्तव्याविरोधात शिवसेनेचे आंदोलन",
@@ -469,8 +479,9 @@ export const pressNotes = [
     },
   },
   {
-    id: 11,
-    image: "/images/press/press11.jpg",
+    id: 3,
+    image:
+      "/images/press/yogesh-phalke-shiv-sena-imtiaz-jaleel-effigy-protest.jpg",
     title: {
       en: "Protest held against controversial remarks by Imtiaz Jaleel",
       mr: "इम्तियाज जलील यांच्या वक्तव्याविरोधात आंदोलन",
@@ -485,8 +496,9 @@ export const pressNotes = [
 
   // ===== 2024 =====
   {
-    id: 27,
-    image: "/images/press/press27.jpg",
+    id: 2,
+    image:
+      "/images/press/yogesh-phalke-election-victory-thanksgiving-meeting.jpg",
     title: {
       en: "Grand public gathering celebrates leadership success",
       mr: "मोठ्या जनसमुदायात नेतृत्वाच्या यशाचा उत्सव साजरा",
@@ -499,8 +511,8 @@ export const pressNotes = [
     },
   },
   {
-    id: 28,
-    image: "/images/press/press28.jpg",
+    id: 1,
+    image: "/images/press/yogesh-phalke-datt-mandir-loudspeaker-permission.jpg",
     title: {
       en: "Support for religious and social activities in Wai",
       mr: "वाईत धार्मिक व सामाजिक उपक्रमांना पाठिंबा",

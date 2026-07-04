@@ -5,7 +5,7 @@ export const idols = [
       en: "Balasaheb Keshav Thackeray",
       mr: "बाळासाहेब केशव ठाकरे",
     },
-    img: "/images/leaders/idol/Balasaheb_Thackrey.jpeg",
+    img: "/images/leaders/idol/balasaheb-keshav-thackeray-founder-shiv-sena.jpeg",
     info: {
       en: "Founder of Shiv Sena in 1966 and a powerful voice of Mumbai. Known for bold leadership and strong Marathi identity. Influential in politics without holding any official post.",
       mr: "१९६६ मध्ये शिवसेनेची स्थापना करणारे आणि मुंबईतील प्रभावशाली नेते. ठाम नेतृत्व आणि मराठी अस्मितेसाठी ओळख. अधिकृत पद नसतानाही मोठा प्रभाव.",
@@ -21,7 +21,7 @@ export const idols = [
       en: "Anand Chintamani Dighe",
       mr: "आनंद चिंतामणी दिघे",
     },
-    img: "/images/leaders/idol/Anand_Dighe.jpeg",
+    img: "/images/leaders/idol/anand-chintamani-dighe-dharmaveer-shiv-sena.jpeg",
     info: {
       en: "Known as “Dharmaveer”, Anand Dighe was a Shiv Sena leader from Thane. Close follower of Balasaheb with strong grassroots connect. Respected for simplicity and service to people.",
       mr: "“धर्मवीर” म्हणून ओळखले जाणारे आनंद दिघे हे ठाण्यातील शिवसेना नेते होते. बाळासाहेबांचे निकटचे सहकारी आणि तळागाळाशी मजबूत नाते. साधेपणा आणि जनसेवेसाठी आदर.",
@@ -37,7 +37,7 @@ export const idols = [
       en: "Eknath Sambhaji Shinde",
       mr: "एकनाथ संभाजी शिंदे",
     },
-    img: "/images/leaders/idol/Eknath_Shinde.png",
+    img: "/images/leaders/idol/eknath-sambhaji-shinde-deputy-chief-minister-maharashtra.png",
     info: {
       en: "Eknath Shinde is the Deputy Chief Minister of Maharashtra. Started under Anand Dighe with strong grassroots connect. Known for development-focused leadership.",
       mr: "एकनाथ शिंदे हे महाराष्ट्राचे उपमुख्यमंत्री आहेत. आनंद दिघे यांच्या मार्गदर्शनाखाली सुरुवात करून तळागाळाशी मजबूत नाते. विकासाभिमुख नेतृत्वासाठी ओळख.",
