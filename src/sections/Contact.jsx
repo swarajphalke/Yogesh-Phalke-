@@ -16,11 +16,32 @@ export default function Contact() {
   const formRef = useReveal();
   const infoRef = useReveal();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSent(true);
-    setTimeout(() => setSent(false), 3000);
-  };
+ const handleSubmit = (e) => {
+   e.preventDefault();
+
+   const formData = new FormData(e.target);
+
+   const name = formData.get("name");
+   const email = formData.get("email");
+   const message = formData.get("message");
+
+   const text = `*Message from Portfolio*
+
+👤 Name: ${name}
+📧 Email: ${email}
+
+💬 Message:
+${message}`;
+
+   const whatsappUrl = `https://wa.me/919172539959?text=${encodeURIComponent(text)}`;
+
+   window.open(whatsappUrl, "_blank");
+
+   setSent(true);
+   e.target.reset();
+
+   setTimeout(() => setSent(false), 3000);
+ };
 
   const socials = [
     {
@@ -57,8 +78,8 @@ export default function Contact() {
                   {
                     icon: Mail,
                     label: c.email,
-                    val: "yogeshphalke@shivsena.org",
-                    href: "mailto:yogeshphalke@shivsena.org",
+                    val: "yogeshphalke.office@gmail.com",
+                    href: "mailto:yogeshphalke.office@gmail.com",
                   },
                   {
                     icon: MapPin,
@@ -158,6 +179,7 @@ export default function Contact() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  {" "}
                   {[
                     { label: c.formName, type: "text", name: "name" },
                     { label: c.formEmail, type: "email", name: "email" },

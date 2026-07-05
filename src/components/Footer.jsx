@@ -122,8 +122,8 @@ export default function Footer() {
                 },
                 {
                   icon: Mail,
-                  text: "yogeshphalke@shivsena.org",
-                  href: "mailto:yogeshphalke@shivsena.org",
+                  text: "yogeshphalke.office@gmail.com",
+                  href: "mailto:yogeshphalke.office@gmail.com",
                 },
                 {
                   icon: MapPin,

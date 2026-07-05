@@ -2,10 +2,11 @@ import { useLang } from "../context/LangContext";
 import SectionHeader from "../components/SectionHeader";
 import { useReveal } from "../components/useReveal";
 import { idols } from "../data/idols";
+import { useState } from "react";
 
 function IdolCard({ img, name, info, quote, delay, lang }) {
   const ref = useReveal();
-
+const [expanded, setExpanded] = useState(false);
   return (
     <div
       ref={ref}
@@ -35,18 +36,46 @@ function IdolCard({ img, name, info, quote, delay, lang }) {
             {name[lang]}
           </h3>
 
-          {/* Accent Line */}
           <div className="w-10 h-[2px] bg-orange-500 mb-3"></div>
 
-          {/* Info */}
-          <p className="text-white/70 text-sm leading-relaxed mb-3">
-            {info[lang]}
-          </p>
+          {/* Desktop */}
+          <div className="hidden md:block">
+            <p className="text-white/70 text-sm leading-relaxed mb-3">
+              {info[lang]}
+            </p>
 
-          {/* Quote */}
-          <p className="text-orange-400 text-sm italic leading-relaxed">
-            “{quote[lang]}”
-          </p>
+            <p className="text-orange-400 text-sm italic leading-relaxed">
+              “{quote[lang]}”
+            </p>
+          </div>
+
+          {/* Mobile */}
+          <div className="md:hidden">
+            {!expanded ? (
+              <button
+                onClick={() => setExpanded(true)}
+                className="text-orange-400 text-sm font-medium hover:text-orange-300 transition-colors"
+              >
+                {lang === "mr" ? "पुढे वाचा" : "Read More"}
+              </button>
+            ) : (
+              <>
+                <p className="text-white/70 text-sm leading-relaxed mb-3">
+                  {info[lang]}
+                </p>
+
+                <p className="text-orange-400 text-sm italic leading-relaxed">
+                  “{quote[lang]}”
+                </p>
+                <button
+                  onClick={() => setExpanded(false)}
+                  className="mt-3 text-orange-400 text-sm font-medium hover:text-orange-300 transition-colors"
+                >
+                  {lang === "mr" ? "कमी वाचा" : "Read Less"}
+                </button>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </div>
