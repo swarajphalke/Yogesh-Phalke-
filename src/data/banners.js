@@ -288,4 +288,22 @@ export const banners = [
       mr: "गोविंदा पथक दहीहंडी उत्सव",
     },
   },
+  {
+    id: 34,
+    image:
+      "/images/banners/yogesh-phalke-shiv-kamgar-sena-news-coverage-banner.jpg",
+    title: {
+      en: "Voice for Workers' Rights",
+      mr: "कामगारांच्या हक्कांसाठी बुलंद आवाज",
+    },
+  },
+  {
+    id: 35,
+    image:
+      "/images/banners/yogesh-phalke-wai-constituency-development-banner.jpg",
+    title: {
+      en: "Committed to Wai's Development",
+      mr: "वाईच्या विकासासाठी कटिबद्ध",
+    },
+  },
 ];

@@ -739,4 +739,74 @@ export const videos = [
       mr: "तापोळा येथे मा. उपमुख्यमंत्री एकनाथ शिंदे यांची भेट",
     },
   },
+  {
+    id: 75,
+    video: "/videos/reel/Reel75.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t75.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t75.webp",
+    title: {
+      en: "Support Extended to Veer Jiva Mahale’s Legacy",
+      mr: "वीर जीवा महाले यांच्या वारशाला मदतीचा सन्मान",
+    },
+  },
+  {
+    id: 76,
+    video: "/videos/reel/Reel76.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t76.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t76.webp",
+    title: {
+      en: "Shiv Sena Office Bearers’ Review Meeting",
+      mr: "शिवसेना पदाधिकारी आढावा बैठक",
+    },
+  },
+  {
+    id: 77,
+    video: "/videos/reel/Reel77.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t77.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t77.webp",
+    title: {
+      en: "Yogesh Phalke Meets Shambhuraj Desai",
+      mr: "योगेश फाळके यांची शंभूराज देसाई यांच्यासोबत भेट",
+    },
+  },
+  {
+    id: 78,
+    video: "/videos/reel/Reel78.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t78.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t78.webp",
+    title: {
+      en: "Discussion with Shambhuraj Desai",
+      mr: "शंभूराज देसाई यांच्यासोबत चर्चा",
+    },
+  },
+  {
+    id: 79,
+    video: "/videos/reel/Reel79.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t79.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t79.webp",
+    title: {
+      en: "Meeting DCM Eknath Shinde at Daregaon",
+      mr: "दरेगाव येथे उपमुख्यमंत्री एकनाथ शिंदे यांची सदिच्छा भेट",
+    },
+  },
+  {
+    id: 80,
+    video: "/videos/reel/Reel80.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t80.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t80.webp",
+    title: {
+      en: "Yuva Sena Review Meeting",
+      mr: "युवा सेनेची आढावा बैठक",
+    },
+  },
+  {
+    id: 81,
+    video: "/videos/reel/Reel81.mp4",
+    thumbnailMob: "/videos/thumbnail/mob/t81.webp",
+    thumbnailPc: "/videos/thumbnail/pc/t81.webp",
+    title: {
+      en: "Raising Voice Against Poor Road Construction",
+      mr: "निकृष्ट रस्त्याच्या कामाविरोधात आवाज",
+    },
+  },
 ];

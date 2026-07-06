@@ -1,6 +1,65 @@
 export const pressNotes = [
   // ===== 2026 =====
   {
+    id: 40,
+    image: "/images/press/road-construction-quality-inspection-satara-news.jpg",
+    title: {
+      en: "Quality Inspection of Public Road Works",
+      mr: "सार्वजनिक रस्ते कामांची गुणवत्ता तपासणी",
+    },
+    source: "Satara News",
+    date: "20 Jun 2026",
+    desc: {
+      en: "A detailed inspection highlighted construction issues and called for quality work as per standards.",
+      mr: "रस्ते कामांतील त्रुटी निदर्शनास आणून दर्जेदार काम करण्याची मागणी करण्यात आली.",
+    },
+  },
+  {
+    id: 39,
+    image:
+      "/images/press/road-construction-quality-inspection-wai-janlok-varta.jpg",
+    title: {
+      en: "Inspection of Road Construction Quality in Wai",
+      mr: "वाईतील रस्ते कामांच्या गुणवत्तेची पाहणी",
+    },
+    source: "Janlok Varta",
+    date: "18 Jun 2026",
+    desc: {
+      en: "Road construction quality was inspected and authorities were informed about technical deficiencies.",
+      mr: "रस्ते कामांची गुणवत्ता तपासून संबंधित अधिकाऱ्यांना त्रुटींबाबत सूचना देण्यात आल्या.",
+    },
+  },
+  {
+    id: 38,
+    image:
+      "/images/press/veer-jiva-mahale-memorial-support-kondavali-sakal.jpg",
+    title: {
+      en: "Support for Veer Jiva Mahale Memorial at Kondavali",
+      mr: "कोंढवलीतील वीर जिवा महाले स्मारकाला मदत",
+    },
+    source: "Sakal",
+    date: "29 May 2026",
+    desc: {
+      en: "Support extended for completing the Veer Jiva Mahale Memorial and assisting the family.",
+      mr: "वीर जिवा महाले स्मारक पूर्णत्वास नेण्यासाठी व कुटुंबाला मदत देण्यात आली.",
+    },
+  },
+  {
+    id: 37,
+    image:
+      "/images/press/veer-jiva-mahale-memorial-financial-assistance-pudhari.jpg",
+    title: {
+      en: "Financial Assistance for Veer Jiva Mahale Memorial",
+      mr: "वीर जिवा महाले स्मारकासाठी आर्थिक मदत",
+    },
+    source: "Pudhari",
+    date: "29 May 2026",
+    desc: {
+      en: "Financial assistance was provided to support the Veer Jiva Mahale Memorial and his descendants.",
+      mr: "वीर जिवा महाले स्मारक व त्यांच्या वंशजांना आर्थिक मदत प्रदान करण्यात आली.",
+    },
+  },
+  {
     id: 36,
     image: "/images/press/shiv-kamgar-sena-public-recruitment-drive-wai.jpeg",
     title: {

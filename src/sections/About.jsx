@@ -40,7 +40,7 @@ const images = [
     alt: "Official portrait of Yogesh Phalke",
   },
   {
-    src: "/images/yogesh-phalke-with-eknath-shinde.png",
+    src: "/images/yogesh-phalke-with-eknath-shinde.jpg",
     alt: "Yogesh Phalke with Eknath Shinde",
   },
   {
